@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #454545;
+    line-height: 1.6;
+    /* font-size: 16px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+a {
+    color: #eee;
+}
+
+.side-bar {
+    float: left;
+    width: 20%;
+    position: fixed;
+}
+
+.side-bar>* {
+    padding: 20px 20px;
+}
+
+.side-bar .nav a,
+.side-bar .tag-list a {
+    display: block;
+    padding: 5px 0px;
+    color: #999;
+    transition: all 0.3s;
+}
+
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover {
+    color: #eee;
+}
+
+.side-bar .nav a {
+    font-weight: 700;
+}
+
+
+.main {
+    float: right;
+    width: 80%;
+    color: #454545;
+
+}
+
+.artical-list,
+.artical {
+    background-color: #fff;
+    margin-right: 30%;
+    padding: 50px 70px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.artical-list .item {
+    margin-bottom: 30px;
+    /* padding-bottom: 20px; */
+    /* border-bottom: 1px solid #ddd; */
+}
+
+/* .item:last-child{
+    border-bottom: none;
+} */
+
+.artical-list .item .title {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.artical-list .item .status,
+.artical .status {
+    font-size: 13px;
+    color: #999;
+}
+
+.artical-list .item .content,
+.artical .content {
+    font-size: 14px;
+    color: #666;
+}
+
+.artical-list .item>*,
+.artical>* {
+    margin: 8px 0;
+}
+
+.header .logo {
+    line-height: 1;
+    border: 5px solid #eee;
+    padding: 10px 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#menu-checkbox,
+#menu-toggle {
+    display: none;
+}

@@ -1,0 +1,36 @@
+.side-bar {
+    position: relative;
+    width: 100%;
+    float: none;
+}
+
+.side-bar .nav,
+.side-bar .tag-list {
+    display: none;
+    text-align: center;
+}
+
+#menu-toggle{
+    position: absolute;
+    top: 12px;
+    right: 0;
+    font-size: 20px;
+    font-weight: 100;
+    display: block;
+}
+
+#menu-checkbox:checked~.nav,
+#menu-checkbox:checked~.tag-list {
+    display: block;
+}
+
+.main {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.artical-list {
+    margin: 0;
+    padding: 40px 40px;
+}
