@@ -1,2 +1,2 @@
-# chi blog
+# chi-blog
  my blog
